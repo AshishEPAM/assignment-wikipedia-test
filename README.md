@@ -44,7 +44,7 @@ mvn clean test -DbrowserName="browserName"
 
 If the test runs successfully, then we get below report.
 
-Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="GoogleChrome"
+*Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="GoogleChrome"*
 
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.268 s - in com.assignment.tests.AssignmentTest
 [INFO] 
@@ -62,7 +62,7 @@ Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test>
 
 If the test fails for example unsupported or invalid browser name, then we get below error.
 
-Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="IE"
+*Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="IE"*
 
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.assignment.tests.AssignmentTest
 [ERROR] testAssignment(com.assignment.tests.AssignmentTest)  Time elapsed: 0 s  <<< ERROR!
