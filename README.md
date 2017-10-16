@@ -1,6 +1,3 @@
-
-
-
 # Description
 
 This is an assignment project where we are automating below test flow.
@@ -39,7 +36,8 @@ This needs to be cloned on your local workspace to run the test.
 # Tests
 
 Open cmd or Windows PowerShell ISE and go to the root pom directory and type command 
-mvn clean test -DbrowserName="browserName"
+
+# mvn clean test -DbrowserName="browserName"
 
 'browserName' is the name of the browser where you want to run the test. Only 'GoogleChrome' is supported at the moment.
 
