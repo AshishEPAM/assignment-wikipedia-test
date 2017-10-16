@@ -26,7 +26,7 @@ Below guidelines have been followed during the development of this automation fr
 
 # Installation
 
-Below prerequsitions are needed to run the tests
+Below prerequsitions are needed to run the test.
 
 1. Java8
 2. Maven
@@ -43,10 +43,11 @@ mvn clean test -DbrowserName="browserName"
 
 'browserName' is the name of the browser where you want to run the test. Only 'GoogleChrome' is supported at the moment.
 
-Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="GoogleChrome"
-
 If the test runs successfully, then you will get below report.
 
+Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="GoogleChrome"
+
+----------------------------------------------------------------------------------------------------------------------------
 [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.268 s - in com.assignment.tests.AssignmentTest
 [INFO] 
 [INFO] Results:
@@ -60,11 +61,13 @@ If the test runs successfully, then you will get below report.
 [INFO] Finished at: 2017-10-16T16:14:40+05:30
 [INFO] Final Memory: 17M/168M
 [INFO] ------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 If the test fails for example unsupported or invalid browser name, then we get below error.
 
 Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="IE"
 
+------------------------------------------------------------------------------------------------------------------------------
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.assignment.tests.AssignmentTest
 [ERROR] testAssignment(com.assignment.tests.AssignmentTest)  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalArgumentException: Invalid/Unsupported Browser Name: IE, only 'GoogleChrome' is supported.
@@ -75,3 +78,4 @@ java.lang.IllegalArgumentException: Invalid/Unsupported Browser Name: IE, only '
 [INFO] Total time: 2.587 s
 [INFO] Finished at: 2017-10-16T17:04:56+05:30
 [INFO] Final Memory: 17M/166M
+-------------------------------------------------------------------------------------------------------------------------------
