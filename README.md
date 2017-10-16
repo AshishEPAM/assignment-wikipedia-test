@@ -35,6 +35,8 @@ This needs to be cloned on your local workspace to run the test.
 
 # Tests
 
+**mvn clean test -DbrowserName="GoogleChrome"**
+
 Open cmd or Windows PowerShell ISE and go to the root pom directory and type command 
 mvn clean test -DbrowserName="browserName"
 
