@@ -40,7 +40,7 @@ mvn clean test -DbrowserName="browserName"
 
 'browserName' is the name of the browser where you want to run the test. Only 'GoogleChrome' is supported at the moment.
 
-If the test runs successfully, then you will get below report.
+If the test runs successfully, then we get below report.
 
 Example : PS C:\Users\Ashish_Sahu\AssignmentWorkspace\assignment-wikipedia-test> mvn clean test -DbrowserName="GoogleChrome"
 
