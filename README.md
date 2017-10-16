@@ -5,13 +5,13 @@
 
 This is an assignment project where we are automating below test flow.
 
-1.    Navigate to wikipedia.org page
-2.    Search for “OOP”
-3.    Select first item in suggested results list
-4.    Validate that you successfully navigate to https://en.wikipedia.org/wiki/OOP page
-5.    Click on link with title “Object-oriented programming”
-6.    Validate that you successfully navigate to https://en.wikipedia.org/wiki/Object-oriented_programming page
-7.    On page bottom expand “Software engineering” area, and select third name from  “Software engineers” list (e. g. “Grady Booch”). 
+1.	Navigate to wikipedia.org page
+2.	Search for “OOP”
+3.	Select first item in suggested results list
+4.	Validate that you successfully navigate to https://en.wikipedia.org/wiki/OOP page
+5.	Click on link with title “Object-oriented programming”
+6.	Validate that you successfully navigate to https://en.wikipedia.org/wiki/Object-oriented_programming page
+7.	On page bottom expand “Software engineering” area, and select third name from “Software engineers” list (e.g. “Grady Booch”).  
 
 # Guidelines
 
@@ -23,7 +23,6 @@ Below guidelines have been followed during the development of this automation fr
 4.	Solution should run from command line. 
 5.	Provide a README.md file with solution description. 
 6.	Completed solution should uploaded to the Github. 
-
 
 # Installation
 
